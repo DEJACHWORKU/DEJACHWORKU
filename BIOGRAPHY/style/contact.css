@@ -1,0 +1,169 @@
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif;
+width: 100%;
+
+
+  }
+  .nav{
+  background-color: #ffff;
+  color: hsl(147, 100%, 2%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  }
+  .logo
+   {
+  
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  font-size: 30PX;
+
+  }
+.navlinks{
+width: 100%;
+  } 
+  .navlinks ul li{
+ display: inline-block;
+  cursor: pointer;
+  font: bold;
+  }
+  .navlinks ul li a{
+  color: hsl(191, 65%, 3%);
+  font-size: 21px;
+  cursor: pointer;
+  float: left;
+  background-color: greenyellow;
+  padding: 10px 20px;
+  border: 4px solid aqua;
+  border-radius: 15px;
+  color: black;
+  font: bold;
+ text-transform: uppercase;
+text-decoration: none;
+
+  }
+
+    .form{
+      display: grid;
+      align-items: center; 
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding:10px;
+    }
+    input[type=text]
+    {
+      margin: 10px auto 30px auto;
+      width: 250px;
+      padding: 7px 5px;
+      border: 2px solid black;
+      border-radius: 3px;
+    }
+    input[type=email]
+    {
+      margin: 10px auto 30px auto;
+      width: 300px;
+      padding: 7px 5px;
+      border: 2px solid black;
+      border-radius: 3px;
+    }
+    input[type=number]
+    {
+      margin: 10px auto 30px auto;
+      width: 100px;
+      padding: 7px 5px;
+      border: 2px solid green;
+      border-radius: 3px;
+    }
+  
+    .form textarea {
+      margin: 10px auto 30px auto;
+      width: 30px;
+      height: 400px;
+      padding: 6px 4px;
+      border: 2px solid rgb(255, 114, 0);
+      border-radius: 3px;
+    }
+    .footer{
+      background-color: black;
+      display: flex;
+      margin: 0%;
+      padding: 0%;
+      width: 100%;
+    }
+   .footer .no{
+    float: left;
+   }
+  .footer .no h1{
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    font: bold;
+    font-weight: 800;
+   }
+   .footer .no pre i{
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+ 
+    font: bold;
+   }
+   .footer .yes{
+    padding-top: 1%;
+    padding-left: 400px;
+   }
+  .footer .yes h1{
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    font: bold;
+    font-weight: 800;
+   }
+   .footer .yes pre i{
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+ 
+    font: bold;
+   }
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+  .footer-col{
+    height: 300px;
+    width: 100%;
+    background: black;
+ 
+  }
+ .no i{
+
+  color: white;
+margin-left: 10%;
+display: inline-block;
+margin: 15px 20px;
+
+font-size: 45px;
+
+ }
+   .no i span{
+    font-size: 20px;
+font-family: sans-serif;
+font-weight: 900;
+font: bold;
+padding-left: 20px;
+   }
+   .footer-col h1{
+    margin: 10px 20px;
+    color: white;
+   }
+   .footer-col h2{
+margin-top: 1%;
+font-size: 34px;
+    color: white;
+   }
+   .no i:hover{
+background: aqua;
+   }
